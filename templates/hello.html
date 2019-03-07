@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-118743023-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-118743023-2');
+</script>
+        <script src="{{url_for('static', filename='home.js')}}"></script>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+      {% if name%}
+  <title>Hello, {{name}}</title>{% else %}<title>Nobody sent you a letter</title>{% endif %}
+
+
+</head><body class="green lighten-3 blue-text">
+  <div class="row">
+          <div class="col s2 m2">
+    <div class="card horizontal amber darken-2">
+      <div class="card-image">
+              <a href="https://www.copypastapublishing.com"><img class="black-text hoverable" style="height:50px; width:50px", src="{{url_for('static', filename='lowerlogo.png')}}"></a>
+      </div>
+      <div class="card-stacked">
+        <div class="card-content">
+          <p>Copypasta Publishing</p>
+        </div>
+        <div class="card-action">
+          <a class="black-text" href="mailto:submissions@copypastapublishing.com">Email Now</a>
+        </div>
+          <div class="card-action">
+          <a class="black-text" href="https://www.copypastapublishing.com">Website</a>
+        </div>
+                   <div class="card-action">
+          <a class="black-text" href="/">Partners</a>
+        </div>
+                             <div class="card-action">
+          <a class="black-text" href="/about">About</a>
+        </div>
+                             <div class="card-action">
+          <a class="black-text" href="/entries">Entries</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+      <div class="col s2 m5 ">      <div class="blue-text  purple accent-1 hoverable">
+                    <span class="card-title">          <h3 class="center">Copypasta Partners</h3>
+                    </span>
+
+      <div class="card-image">
+          <img class="responsive-img" src="{{url_for('static', filename='MOBILEHEADER.jpg')}}"></div>
+      </div></div>
+    <div class="col s4 m5">
+      <div class="card-panel amber accent-1 hoverable">
+       <center>
+{% if name%}
+<h3>Hello, {{name}}!</h3>
+{% else %}
+  <h3>Hello, World!</h3>
+{% endif %}<h3>made for social media marketing</h3></center>
+      </div></div></div>
+
+
+            <div class="container">
+      <div class="card-panel flow-text amber black-text hoverable">
+          <p>Your social networking day may vary widely. That's the reason many business owners change products. Social media theories help explain it. Avoiding conflict and trouble finds success.</p>
+      </div>
+
+
+            <div class="row">
+    <div class="col s12 m12">
+      <div class="hidden card-panel flow-text amber accent-1 hoverable">
+<p><h3><a href="https://twitter.com/search/?q=%23HIVEMIND23"class="black-text"> #𝐇𝐈𝐕𝐄𝐌𝐈𝐍𝐃𝟐𝟑 </a> is a BitCoin accessible Ai and self-organized Kubernetes cloud based on a kind of or type of algorithm.  </h3></p>
+      </div></div>
+  </div>
+
+
+            <div class="row">
+    <div class="col s12 m12">
+      <div class="card-panel flow-text  amber accent-1 hoverable zdepth-2">
+              <div class="purple-text center"><a href="/entries" class="pulse zdepth-5 waves-effect waves-light btn">36 recruited upcoming ja ja  rastafari leaders
+</a>
+
+</div>
+      </div></div>
+  </div>
+            <div class="row">
+    <div class="col s6 m10">
+      <div class="card-panel flow-text green black-text accent-3">
+
+<thead>     <tbody>
+          <tr>
+              <th>Sci Fi suggestions</th>
+
+          </tr>
+        </thead>{%for phrase in phrases%}
+
+                         <tr>            <td>{{phrase}}</td>
+
+
+          </tr>{%endfor%}
+        </tbody>
+      </table>
+
+      </div></div>
+
+    <div class="col s6 m2 ">
+      <divclass="card orange hoverable lighten-1">
+        <div class="card-image">
+            <img class="responsive-img" style="height:100%, length:100%" src={{url_for('static', filename='wiki.png')}}></img>
+        </div>
+        <div class="card-content purple-text">
+     <p style="height:100%" >I walked down cement sidewalks. In the rendering of my practical emergency, it rained. Why repeat the same parameters for data if the value remains the same? I paid my parking fine.</p>
+
+        </div>
+        <div class="card-action">
+          <a class="black-text" href="https://www.caesarnapleswiki.org">Caesar Naples Wiki</a>
+        </div>
+      </div>
+    </div>
+            </div>
+
+
+</body>
+</html>
