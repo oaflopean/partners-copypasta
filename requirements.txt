@@ -19,7 +19,7 @@ itsdangerous==1.1.0
 Jinja2==2.10
 jmespath==0.9.4
 jsonschema==2.6.0
-lxml==4.3.0
+lxml==4.6.3
 MarkupSafe==1.1.1
 mongoengine==0.16.3
 networkx==2.2
