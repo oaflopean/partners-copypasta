@@ -1,7 +1,7 @@
 awsebcli==3.14.13
 botocore==1.12.106
 cement==2.8.2
-certifi==2018.11.29
+certifi==2022.12.7
 chardet==3.0.4
 Click==7.0
 clickclick==1.2.2
